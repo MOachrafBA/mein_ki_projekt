@@ -40,7 +40,6 @@ ollama pull qwen2.5:3b
 # 6. Skript starten
 python app.py
 
-
 ## Eigene PDF verwenden
 - Hinweis: PDF-Dateien sind in diesem Repository per `.gitignore` ausgeschlossen. Das bedeutet, dass meine lokale PDF ( in dem Fall: `Bacheloarbeit_Mohamed_Achraf_Badaoui_638071.pdf`) nicht ins Git-Repository hochgeladen wird.
 - Vorgehen:
