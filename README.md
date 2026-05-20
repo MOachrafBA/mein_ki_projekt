@@ -44,5 +44,5 @@ python app.py
 - Hinweis: PDF-Dateien sind in diesem Repository per `.gitignore` ausgeschlossen. Das bedeutet, dass meine lokale PDF ( in dem Fall: `Bacheloarbeit_Mohamed_Achraf_Badaoui_638071.pdf`) nicht ins Git-Repository hochgeladen wird.
 - Vorgehen:
 	- Kopiere deine eigene PDF in das Projektverzeichnis.
-	- Passe in `app.py` die Variable `PDF_FILE` an den Dateinamen deiner PDF an, oder benenne deine Datei entsprechend.
+	- Passe in `app.py` die Variable `PDF_FILE`, `COLLECTION_NAME` sowie `prompt` an den Dateinamen deiner PDF an.
 	- Optional: Setze eine Umgebungsvariable `PDF_FILE` und erweitere `app.py`, um diese zu lesen, falls du mehrere PDFs verwenden möchtest.
