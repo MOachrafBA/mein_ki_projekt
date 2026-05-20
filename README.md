@@ -17,15 +17,25 @@ Ein funktionsfähiges **Retrieval-Augmented Generation (RAG)** System, das Dokum
 ## Installation & Start
 ```bash
 # 1. Repository klonen
-git clone <DEIN_GITHUB_REPOSITORY_LINK>
+git clone <MEIN_GITHUB_REPOSITORY_LINK>
 cd mein_ki_projekt
 
-# 2. Virtuelle Umgebung erstellen & aktivieren
+# 2. Virtuelle Umgebung erstellen
 python -m venv .venv
-source .venv/bin/Scripts/activate  # Unter Windows: .venv\Scripts\activate
 
-# 3. Abhängigkeiten installieren
+# 3. Aktivieren
+# Windows (PowerShell):
+.\.venv\Scripts\Activate.ps1
+# Windows (cmd.exe):
+.\.venv\Scripts\activate.bat
+# macOS / Linux:
+source .venv/bin/activate
+
+# 4. Abhängigkeiten installieren
 pip install -r requirements.txt
 
-# 4. Skript starten
+# 5. Optional: Ollama-Modell ziehen
+ollama pull qwen2.5:3b
+
+# 6. Skript starten
 python app.py
