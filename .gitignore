@@ -12,3 +12,4 @@ dist/
 *.egg-info/
 .python-version
 *.pdf
+chroma_db/
