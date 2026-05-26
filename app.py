@@ -75,6 +75,10 @@ Antwort:
 
 def main():
     chunks = get_chunk_from_pdf(PDF_FILE)
+    if not chunks:
+        print("Fehler: Konnte den PDF-Inhalt nicht extrahieren.")
+        return
+
     collection = setup_vector_db(chunks)
 
     print("\n RAG-System bereit! Du kannst jetzt Fragen zur Bachelorarbeit stellen.")
